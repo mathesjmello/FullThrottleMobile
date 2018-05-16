@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e19bfb9-99f6-45d1-a0b7-9087f24190de" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/prefabs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/scripts.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.FullThrottleMobile/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.FullThrottleMobile/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/tela1.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/tela1.unity" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sprits/Interactables.cs" afterPath="$PROJECT_DIR$/Assets/Sprits/Interactables.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sprits/InteractiveView.cs" afterPath="$PROJECT_DIR$/Assets/Sprits/InteractiveView.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Sprits/Painel.cs" afterPath="$PROJECT_DIR$/Assets/Sprits/Painel.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,23 +20,60 @@
       <file leaf-file-name="Interactables.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Sprits/Interactables.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+            <state relative-caret-position="525">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
-                <marker date="1526495915349" expanded="false" signature="6:78" ph="..." />
-                <marker date="1526495915349" expanded="true" signature="124:1215" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="248:479" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="271:370" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="377:476" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="503:1008" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="541:1005" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="719:888" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="896:1001" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="1029:1089" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="1048:1086" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="1109:1167" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="1127:1164" ph="{...}" />
-                <marker date="1526495915349" expanded="true" signature="1187:1213" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="6:95" ph="..." />
+                <marker date="1526506235358" expanded="true" signature="141:1120" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="220:622" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="258:619" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="478:615" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="569:606" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="652:710" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="670:707" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="739:765" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="795:855" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="814:852" ph="{...}" />
+                <marker date="1526506235358" expanded="false" signature="887:1118" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="910:1009" ph="{...}" />
+                <marker date="1526506235358" expanded="true" signature="1016:1115" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InteractiveView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Sprits/InteractiveView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <marker date="1526504303968" expanded="true" signature="6:78" ph="..." />
+                <marker date="1526504303968" expanded="true" signature="124:640" ph="{...}" />
+                <marker date="1526504303968" expanded="true" signature="217:275" ph="{...}" />
+                <marker date="1526504303968" expanded="true" signature="310:509" ph="{...}" />
+                <marker date="1526504303968" expanded="true" signature="440:503" ph="{...}" />
+                <marker date="1526504303968" expanded="true" signature="541:553" ph="{...}" />
+                <marker date="1526504303968" expanded="true" signature="584:596" ph="{...}" />
+                <marker date="1526504303968" expanded="true" signature="626:638" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Painel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Sprits/Painel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+              <folding>
+                <marker date="1526505333572" expanded="true" signature="6:100" ph="..." />
+                <marker date="1526505333572" expanded="true" signature="137:963" ph="{...}" />
+                <marker date="1526505333572" expanded="true" signature="234:346" ph="{...}" />
+                <marker date="1526505333572" expanded="true" signature="369:457" ph="{...}" />
+                <marker date="1526505333572" expanded="true" signature="481:562" ph="{...}" />
+                <marker date="1526505333572" expanded="true" signature="586:653" ph="{...}" />
+                <marker date="1526505333572" expanded="true" signature="702:961" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,11 +85,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Sprits/InteractiveView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sprits/Interactables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sprits/Painel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Sprits/Painel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sprits/BottonsControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Sprits/InteractiveView.cs" />
         <option value="$PROJECT_DIR$/Assets/Sprits/Interactables.cs" />
       </list>
     </option>
@@ -89,6 +133,24 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="FullThrottleMobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FullThrottleMobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FullThrottleMobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="FullThrottleMobile (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Sprits" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,12 +188,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526493414698</updated>
-      <workItem from="1526493423928" duration="2463000" />
+      <workItem from="1526493423928" duration="10223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2463000" />
+    <option name="totallyTimeSpent" value="10223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,6 +217,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -179,25 +242,66 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Sprits/BottonsControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sprits/Painel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <marker date="1526505333572" expanded="true" signature="6:100" ph="..." />
+            <marker date="1526505333572" expanded="true" signature="137:963" ph="{...}" />
+            <marker date="1526505333572" expanded="true" signature="234:346" ph="{...}" />
+            <marker date="1526505333572" expanded="true" signature="369:457" ph="{...}" />
+            <marker date="1526505333572" expanded="true" signature="481:562" ph="{...}" />
+            <marker date="1526505333572" expanded="true" signature="586:653" ph="{...}" />
+            <marker date="1526505333572" expanded="true" signature="702:961" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sprits/InteractiveView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <marker date="1526504303968" expanded="true" signature="6:78" ph="..." />
+            <marker date="1526504303968" expanded="true" signature="124:640" ph="{...}" />
+            <marker date="1526504303968" expanded="true" signature="217:275" ph="{...}" />
+            <marker date="1526504303968" expanded="true" signature="310:509" ph="{...}" />
+            <marker date="1526504303968" expanded="true" signature="440:503" ph="{...}" />
+            <marker date="1526504303968" expanded="true" signature="541:553" ph="{...}" />
+            <marker date="1526504303968" expanded="true" signature="584:596" ph="{...}" />
+            <marker date="1526504303968" expanded="true" signature="626:638" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Sprits/Interactables.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
-            <marker date="1526495915349" expanded="false" signature="6:78" ph="..." />
-            <marker date="1526495915349" expanded="true" signature="124:1215" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="248:479" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="271:370" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="377:476" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="503:1008" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="541:1005" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="719:888" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="896:1001" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="1029:1089" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="1048:1086" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="1109:1167" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="1127:1164" ph="{...}" />
-            <marker date="1526495915349" expanded="true" signature="1187:1213" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="6:95" ph="..." />
+            <marker date="1526506235358" expanded="true" signature="141:1120" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="220:622" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="258:619" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="478:615" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="569:606" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="652:710" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="670:707" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="739:765" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="795:855" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="814:852" ph="{...}" />
+            <marker date="1526506235358" expanded="false" signature="887:1118" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="910:1009" ph="{...}" />
+            <marker date="1526506235358" expanded="true" signature="1016:1115" ph="{...}" />
           </folding>
         </state>
       </provider>

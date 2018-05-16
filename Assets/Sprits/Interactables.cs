@@ -1,14 +1,54 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class Interactables : InteractiveView
 {
-	private bool _highLighted = false;
-	public bool Pegavel, Chutavel;
+	private bool _highLighted;
 	public string Visto;
 
+	
 
+	private void Update()
+	{
+		if (Input.GetMouseButtonDown(0))
+		{
+			Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+			RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
+
+			if (hit.collider != null && hit.transform.gameObject == gameObject)
+			{
+				var hittedObject = hit.collider.gameObject;
+				if (hit.collider.name != "botao")
+				{
+					_painel.Open(this);
+				}				
+			}
+		}
+	}
+
+	public override void Grab()
+	{
+		if (Pegavel)
+		{
+			Debug.Log("posso pegar");
+		}
+	}
+
+	public override void See()
+	{
+		Debug.Log(Visto);
+	}
+
+	public override void Kick()
+	{
+		if (Chutavel)
+		{
+			Debug.Log("posso chutar");
+		}
+	}
+	
 	public void ShowHighLights()
 	{
 		if (_highLighted)
@@ -21,46 +61,5 @@ public class Interactables : InteractiveView
 			gameObject.GetComponent<SpriteRenderer>().color = Color.yellow;
 			_highLighted = true;
 		}
-	}
-
-	private void Update()
-	{
-		if (Input.GetMouseButtonDown(0))
-		{
-			Vector2 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-			RaycastHit2D hit = Physics2D.Raycast(worldPoint, Vector2.zero);
-
-			if (hit.collider != null)
-			{
-				var hittedObject = hit.collider.gameObject;
-				var painel = FindObjectOfType<Painel>();
-				painel.transform.position = hittedObject.transform.position;
-
-			}
-			else
-			{
-				var painel = FindObjectOfType<Painel>();
-				painel.transform.position = Vector3.up * 100;
-			}
-		}
-	}
-
-	public void Kick()
-	{
-		if (Chutavel)
-		{
-			Debug.Log("posso chutar");
-		}
-	}
-	public void Grab()
-	{
-		if (Pegavel)
-		{
-			Debug.Log("posso pegar");
-		}
-	}
-	public void Look()
-	{
-		Debug.Log(Visto);
 	}
 }
