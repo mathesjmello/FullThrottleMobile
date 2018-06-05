@@ -43,7 +43,5 @@ public class Painel : MonoBehaviour
 		_interactible = interactible;
 		transform.position = new Vector3(interactible.transform.position.x, interactible.transform.position.y, transform.position.z); 
 
-		Kick.interactable = _interactible.Chutavel;
-		Grab.interactable = _interactible.Pegavel;
 	}
 }

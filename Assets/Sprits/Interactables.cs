@@ -23,7 +23,7 @@ public class Interactables : InteractiveView
 				if (hit.collider.name != "botao")
 				{
 					_painel.Open(this);
-				}				
+				}
 			}
 		}
 	}
@@ -33,12 +33,19 @@ public class Interactables : InteractiveView
 		if (Pegavel)
 		{
 			Debug.Log("posso pegar");
+			_painel.transform.position = Vector3.up * 1000;
 		}
-	}
+		else
+		{
+			Debug.Log("Não posso pegar");
+			_painel.transform.position = Vector3.up * 1000;
+		}
+}
 
 	public override void See()
 	{
 		Debug.Log(Visto);
+		_painel.transform.position= Vector3.up*1000;
 	}
 
 	public override void Kick()
@@ -46,6 +53,12 @@ public class Interactables : InteractiveView
 		if (Chutavel)
 		{
 			Debug.Log("posso chutar");
+			_painel.transform.position = Vector3.up * 1000;
+		}
+		else
+		{
+			Debug.Log("não posso chutar");
+			_painel.transform.position = Vector3.up * 1000;
 		}
 	}
 	

@@ -502,6 +502,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 298495279}
+--- !u!1001 &501306527
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473191301126758, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5f7cb4a9d904eda4baa5daa91ba03ded, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,7 +676,7 @@ GameObject:
   - component: {fileID: 540499753}
   - component: {fileID: 540499756}
   m_Layer: 0
-  m_Name: interagivel 2
+  m_Name: lata de lixo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -707,7 +749,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 540499752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.34, y: 1.31, z: 0}
+  m_LocalPosition: {x: -1.99, y: 1.79, z: 0}
   m_LocalScale: {x: 10.767233, y: 10.767233, z: 10.767233}
   m_Children: []
   m_Father: {fileID: 0}
@@ -825,7 +867,7 @@ GameObject:
   - component: {fileID: 821348101}
   - component: {fileID: 821348100}
   m_Layer: 0
-  m_Name: interagivel 2 (1)
+  m_Name: caixas vasias
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -844,7 +886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pegavel: 0
   Chutavel: 1
-  Visto: lata de lixo
+  Visto: caixas vazias
 --- !u!58 &821348101
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -912,7 +954,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 821348099}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.6, y: -3.26, z: 0}
+  m_LocalPosition: {x: 4.57, y: 2.01, z: 0}
   m_LocalScale: {x: 10.767233, y: 10.767233, z: 10.767233}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1224,7 +1266,7 @@ GameObject:
   - component: {fileID: 1857045753}
   - component: {fileID: 1857045756}
   m_Layer: 0
-  m_Name: interagivel
+  m_Name: caixa vasia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1297,7 +1339,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1857045752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.09, y: -2.54, z: 0}
+  m_LocalPosition: {x: -4.33, y: -3.64, z: 0}
   m_LocalScale: {x: 10.767233, y: 10.767233, z: 10.767233}
   m_Children: []
   m_Father: {fileID: 0}
