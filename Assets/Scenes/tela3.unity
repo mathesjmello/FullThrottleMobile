@@ -436,7 +436,7 @@ MonoBehaviour:
   Pegavel: 1
   Chutavel: 0
   Moto: {fileID: 0}
-  Barman: {fileID: 0}
+  Barman: {fileID: 1012146271}
   Porta: {fileID: 0}
   Saida: {fileID: 0}
   Visto: Um baita preguicoso

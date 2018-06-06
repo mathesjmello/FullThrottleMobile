@@ -325,7 +325,7 @@ Transform:
   m_LocalScale: {x: 6.5642223, y: 6.5642223, z: 6.5642223}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pegavel: 1
   Chutavel: 0
-  Moto: {fileID: 0}
+  Moto: {fileID: 821348099}
   Barman: {fileID: 0}
   Porta: {fileID: 0}
   Saida: {fileID: 0}

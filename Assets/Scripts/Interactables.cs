@@ -17,6 +17,7 @@ public class Interactables : InteractiveView
 		{
 			Saida.SetActive(true);
 			Porta.SetActive(false);
+			
 		}
 	}
 
@@ -60,6 +61,7 @@ public class Interactables : InteractiveView
 			}				
 			if (Persistense.HaveKey == 1 && Moto != null)
 			{
+				Debug.Log("acabou");
 				//end game
 			}
 			

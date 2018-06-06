@@ -11,6 +11,8 @@ public class Painel : MonoBehaviour
 	private void Awake()
 	{
 		Persistense.LoadData();
+		Debug.Log(Persistense.HaveKey);
+		Debug.Log(Persistense.PortaOpen);
 	}
 
 	private void Start()
