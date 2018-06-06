@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractiveView : MonoBehaviour
 {
+    private bool _reset;
     public bool Pegavel, Chutavel;
     protected Painel _painel;
 
@@ -18,6 +19,9 @@ public class InteractiveView : MonoBehaviour
         foreach (var interactable in listInterectables)
         {
             interactable.ShowHighLights();
+            Persistense.PortaOpen = 0;
+            Persistense.HaveKey = 0;
+            Persistense.SaveData();
         }
     }
 

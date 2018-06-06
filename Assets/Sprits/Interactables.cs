@@ -1,14 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using UnityEditor.Experimental.UIElements.GraphView;
 using UnityEngine;
 
 public class Interactables : InteractiveView
 {
 	private bool _highLighted;
+	public GameObject Moto, Barman, Porta, Saida;
 	public string Visto;
 
-	
+	private void Start()
+	{
+		Persistense.LoadData();
+		if (Persistense.PortaOpen == 1&&Porta)
+		{
+			Saida.SetActive(true);
+			Porta.SetActive(false);
+		}
+	}
 
 	private void Update()
 	{
@@ -32,8 +42,27 @@ public class Interactables : InteractiveView
 	{
 		if (Pegavel)
 		{
-			Debug.Log("posso pegar");
 			_painel.transform.position = Vector3.up * 1000;
+			if (Persistense.HaveKey == 0 && Barman != null)
+			{
+				Persistense.HaveKey = 1;
+				Persistense.SaveData();
+			}				
+			if (Persistense.HaveKey == 1 && Barman != null)
+			{
+				Debug.Log("Não posso pegar");
+				_painel.transform.position = Vector3.up * 1000;
+			}
+			if (Persistense.HaveKey == 0 && Moto != null)
+			{
+				Debug.Log("Não estou com minha chave");
+				_painel.transform.position = Vector3.up * 1000;
+			}				
+			if (Persistense.HaveKey == 1 && Moto != null)
+			{
+				//end game
+			}
+			
 		}
 		else
 		{
@@ -52,7 +81,13 @@ public class Interactables : InteractiveView
 	{
 		if (Chutavel)
 		{
-			Debug.Log("posso chutar");
+			if (Porta)
+			{		
+				Saida.SetActive(true);
+				Porta.SetActive(false);
+				Persistense.PortaOpen = 1;
+				Persistense.SaveData();
+			}
 			_painel.transform.position = Vector3.up * 1000;
 		}
 		else

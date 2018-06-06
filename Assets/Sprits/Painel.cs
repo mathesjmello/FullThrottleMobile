@@ -8,6 +8,11 @@ public class Painel : MonoBehaviour
 	public Button Kick, Grab, See;
 	private InteractiveView _interactible;
 
+	private void Awake()
+	{
+		Persistense.LoadData();
+	}
+
 	private void Start()
 	{
 		Kick.onClick.AddListener(OnKick);
