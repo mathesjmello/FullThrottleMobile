@@ -22,11 +22,11 @@ public class MenuManeger : MonoBehaviour {
 
 	public void NewGame()
 	{
-		SceneManager.LoadScene("fase1");
+		SceneManager.LoadScene("tela1");
 	}
 	public void ContnueGame()
 	{
 		var cena = Persistense.LastCena;
-		SceneManager.LoadScene("fase1");
+		SceneManager.LoadScene("tela1");
 	}
 }

@@ -61,8 +61,7 @@ public class Interactables : InteractiveView
 			}				
 			if (Persistense.HaveKey == 1 && Moto != null)
 			{
-				Debug.Log("acabou");
-				//end game
+				Application.Quit();
 			}
 			
 		}
