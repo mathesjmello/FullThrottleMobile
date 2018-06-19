@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEditor.Experimental.UIElements.GraphView;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Interactables : InteractiveView
 {
 	private bool _highLighted;
 	public GameObject Moto, Barman, Porta, Saida;
+	public Text TextoFala;
 	public string Visto;
 
 	private void Start()
@@ -43,7 +45,10 @@ public class Interactables : InteractiveView
 	{
 		if (Pegavel)
 		{
+			
 			_painel.transform.position = Vector3.up * 1000;
+			
+			
 			if (Persistense.HaveKey == 0 && Barman != null)
 			{
 				Persistense.HaveKey = 1;
@@ -51,13 +56,16 @@ public class Interactables : InteractiveView
 			}				
 			if (Persistense.HaveKey == 1 && Barman != null)
 			{
-				Debug.Log("Não posso pegar");
 				_painel.transform.position = Vector3.up * 1000;
+				
+				TextoFala.text = "Ele já me deu a chave";
+				TextoFala.gameObject.SetActive(true);
 			}
 			if (Persistense.HaveKey == 0 && Moto != null)
 			{
-				Debug.Log("Não estou com minha chave");
+				TextoFala.text="Não estou com minha chave";
 				_painel.transform.position = Vector3.up * 1000;
+				TextoFala.gameObject.SetActive(true);
 			}				
 			if (Persistense.HaveKey == 1 && Moto != null)
 			{
@@ -67,15 +75,27 @@ public class Interactables : InteractiveView
 		}
 		else
 		{
-			Debug.Log("Não posso pegar");
 			_painel.transform.position = Vector3.up * 1000;
+
+			if (Porta)
+			{
+				TextoFala.text="A porta esta trancada";
+				TextoFala.gameObject.SetActive(true);
+			}
+			else
+			{
+				TextoFala.text="haaaaa... não";
+				TextoFala.gameObject.SetActive(true);
+			}
+			
 		}
 }
 
 	public override void See()
 	{
-		Debug.Log(Visto);
 		_painel.transform.position= Vector3.up*1000;
+		TextoFala.text=Visto;
+		TextoFala.gameObject.SetActive(true);
 	}
 
 	public override void Kick()
@@ -88,13 +108,16 @@ public class Interactables : InteractiveView
 				Porta.SetActive(false);
 				Persistense.PortaOpen = 1;
 				Persistense.SaveData();
+				TextoFala.text="agora a porta ta aberta";
+				TextoFala.gameObject.SetActive(true);
 			}
 			_painel.transform.position = Vector3.up * 1000;
 		}
 		else
 		{
-			Debug.Log("não posso chutar");
 			_painel.transform.position = Vector3.up * 1000;
+			TextoFala.text="Isso não vai funcionar";
+			TextoFala.gameObject.SetActive(true);
 		}
 	}
 	
