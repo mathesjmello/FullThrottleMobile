@@ -113,6 +113,58 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &102249234
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.45757535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.68768656
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.94921875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4467400901680270, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 82579510163290726, guid: d241e0dd6a7cdbc44ba466f131cf3db5,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 26d0b70dee79b40458410d6ae74b4c2b, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d241e0dd6a7cdbc44ba466f131cf3db5, type: 2}
+  m_IsPrefabParent: 0
+--- !u!82 &102249235 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82579510163290726, guid: d241e0dd6a7cdbc44ba466f131cf3db5,
+    type: 2}
+  m_PrefabInternal: {fileID: 102249234}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,8 +346,10 @@ MonoBehaviour:
   Barman: {fileID: 0}
   Porta: {fileID: 0}
   Saida: {fileID: 0}
+  Piano: {fileID: 0}
   TextoFala: {fileID: 1731239949}
   Visto: "A caixa est\xE1 vazia"
+  Som: {fileID: 0}
 --- !u!1 &821348099
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,8 +385,10 @@ MonoBehaviour:
   Barman: {fileID: 0}
   Porta: {fileID: 0}
   Saida: {fileID: 0}
+  Piano: {fileID: 0}
   TextoFala: {fileID: 1731239949}
   Visto: "Ah, gor\xF3"
+  Som: {fileID: 0}
 --- !u!60 &821348101
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -466,8 +522,10 @@ MonoBehaviour:
   Barman: {fileID: 1012146271}
   Porta: {fileID: 0}
   Saida: {fileID: 0}
+  Piano: {fileID: 0}
   TextoFala: {fileID: 1731239949}
   Visto: Um baita preguicoso
+  Som: {fileID: 0}
 --- !u!58 &1012146273
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -601,8 +659,10 @@ MonoBehaviour:
   Barman: {fileID: 0}
   Porta: {fileID: 0}
   Saida: {fileID: 0}
+  Piano: {fileID: 1273572371}
   TextoFala: {fileID: 1731239949}
   Visto: um piano velho
+  Som: {fileID: 102249235}
 --- !u!212 &1273572374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -807,7 +867,7 @@ Prefab:
     - target: {fileID: 224523128221783824, guid: eb7cfa0a67c96134398c611dfc1f4adc,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224523128221783824, guid: eb7cfa0a67c96134398c611dfc1f4adc,
         type: 2}
@@ -1170,5 +1230,7 @@ MonoBehaviour:
   Barman: {fileID: 0}
   Porta: {fileID: 0}
   Saida: {fileID: 0}
+  Piano: {fileID: 0}
   TextoFala: {fileID: 1731239949}
   Visto: "O monitor que n\xE3o tem controles"
+  Som: {fileID: 0}

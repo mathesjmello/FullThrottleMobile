@@ -4,6 +4,7 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: menu_botoes_0
     21300002: menu_botoes_1
+    21300004: menu_botoes_2
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -125,7 +126,7 @@ TextureImporter:
         width: 896
         height: 764
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,13 +146,33 @@ TextureImporter:
         width: 355
         height: 310
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 396a491b5f37cac4aa1793119ae06f8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_botoes_2
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 51
+        width: 648
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18f805cf4090d3439bf2e813c46e6bc
       vertices: []
       indices: 
       edges: []

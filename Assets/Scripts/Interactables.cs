@@ -7,9 +7,10 @@ using UnityEngine.UI;
 public class Interactables : InteractiveView
 {
 	private bool _highLighted;
-	public GameObject Moto, Barman, Porta, Saida;
+	public GameObject Moto, Barman, Porta, Saida, Piano;
 	public Text TextoFala;
 	public string Visto;
+	public AudioSource Som;
 
 	private void Start()
 	{
@@ -109,6 +110,11 @@ public class Interactables : InteractiveView
 				Persistense.SaveData();
 				TextoFala.text="agora a porta ta aberta";
 				TextoFala.gameObject.SetActive(true);
+			}
+			_painel.transform.position = Vector3.up * 1000;
+			if (Piano)
+			{
+				Som.Play();
 			}
 			_painel.transform.position = Vector3.up * 1000;
 		}
